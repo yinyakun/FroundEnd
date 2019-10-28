@@ -1,0 +1,91 @@
+.footer{
+    padding-bottom: 10px;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+    line-height: 30px;
+}
+.footer .copyright{
+    text-align: center;
+    line-height: 30px;
+}
+.nav{
+    background-color: #eeeeee;
+    height: 30px;
+    line-height: 30px;
+}
+.nav .user{
+    float: left;
+}
+/* .user.login 表示同一个元素 class 里既有.user 又有.login 的元素*/
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+
+.nav .nav-list{
+    float: right;
+}
+
+
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}.header .logo {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #c60023;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 10px;
+    left: 50px;
+    top : 40px;
+    display: block;
+    text-decoration: none;
+}
+.header .searchicon {
+    height: 40px;
+    padding: 40px 0 30px 250px;
+}
+.header .searchicon .search-input {
+    border: 2px solid #c60023;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 550px;
+    padding-left: 10px;
+    outline: none;
+}
+.header .searchicon .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 88px;
+}.nav-side {
+ float: left;
+ width:  130px;
+}
+.nav-side .nav-item{
+    line-height: 25px;
+    font-size: 13px;
+}
+.nav-side .nav-item .link{
+    color: #888;
+}
+
+.nav-side .nav-item.active .link{
+    color: #c60023;
+}
+
+.content.with-nav{
+    float: left;
+    width:  950px;
+
+}

@@ -1,0 +1,25 @@
+.nav{
+    background-color: #eeeeee;
+    height: 30px;
+    line-height: 30px;
+}
+.nav .user{
+    float: left;
+}
+/* .user.login 表示同一个元素 class 里既有.user 又有.login 的元素*/
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+
+.nav .nav-list{
+    float: right;
+}
+
+
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}
